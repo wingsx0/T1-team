@@ -1,0 +1,49 @@
+.footer {
+  &-top {
+    background-color: $primary-color;
+    padding: 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+  }
+  &-main {
+    background-color: black;
+    color: white;
+    &_list {
+      padding-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0 40px;
+      margin-bottom: 40px;
+    }
+    &_item {
+      font-size: 17px;
+      cursor: pointer;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    &_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0 40px;
+      padding-bottom: 40px;
+    }
+    &_link {
+      border-bottom: 1px solid white;
+      display: inline-block;
+      padding-bottom: 2px;
+      cursor: pointer;
+    }
+    &_desc {
+      text-align: center;
+      padding: 10px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: calc(17 / 14);
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.partners {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  &_heading {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: calc(79 / 65);
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-cards {
+    margin-bottom: 95px;
+    &_heading {
+      font-weight: 700;
+      font-size: 23px;
+      line-height: calc(28 / 23);
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+  }
+  &-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 15px;
+  }
+  &-content {
+    width: 1187px;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: calc(21 / 17);
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0;
+    padding-bottom: 40px;
+    & ul {
+      margin-left: 40px;
+      & li {
+        margin-bottom: 3px;
+      }
+    }
+  }
+}

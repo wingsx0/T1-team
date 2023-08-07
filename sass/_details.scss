@@ -1,0 +1,102 @@
+.details {
+  margin-top: 50px;
+  color: $text-black;
+  &-shop {
+    display: flex;
+    justify-content: center;
+    gap: 0 237px;
+    border-bottom: 1px solid $border-gary;
+    &_images {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &_list {
+      margin-right: 168px;
+      & img {
+        cursor: pointer;
+      }
+    }
+    &_content {
+      &-top {
+        border-bottom: 1px solid $border-gary;
+        margin-bottom: 20px;
+      }
+    }
+    &_heading {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: calc(27 / 22);
+      margin-bottom: 10px;
+    }
+    &_text {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: calc(18 / 15);
+      margin-bottom: 20px;
+    }
+    &_price {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: calc(23 / 19);
+      margin-bottom: 35px;
+    }
+    &_select {
+      width: 400px;
+      height: 48px;
+      padding: 14px 15px;
+      border: 1px solid $border-gary;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: calc(21 / 17);
+      cursor: pointer;
+      margin-top: 45px;
+      margin-bottom: 58px;
+    }
+    &_count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0 17px;
+      width: 140px;
+      height: 48px;
+      border: 1px solid $border-gary;
+      margin-bottom: 30px;
+    }
+    &_icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      font-size: 25px;
+    }
+    &_number {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: calc(27 / 22);
+    }
+    &_btn {
+      width: 400px;
+      height: 48px;
+      border: 1px solid $border-gary;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: calc(21 / 27);
+      margin-bottom: 20px;
+      cursor: pointer;
+      &.momo {
+        background-color: #a41f68;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 80px;
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.wapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  background-color: #fff;
+  padding: 20px;
+  display: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  &.active {
+    display: block;
+  }
+  &-icon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+  }
+  &-form {
+    color: $text-black;
+    width: 400px;
+    margin: 0 auto;
+    &.login {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+    &.register {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  &_heading {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 39.6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &_subheading {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  &-input {
+    width: 400px;
+    height: 47px;
+    margin-bottom: 15px;
+    border: 1px solid $border-gary;
+    padding: 10px;
+    & input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+    }
+  }
+  & button {
+    width: 400px;
+    height: 47px;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+}
+
+.login-link,
+.register-link {
+  cursor: pointer;
+  color: $primary-color;
+}

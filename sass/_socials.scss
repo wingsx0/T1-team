@@ -1,0 +1,49 @@
+.social {
+  background-color: $bg-gray;
+  color: white;
+  padding: $padding-main;
+  &-heading {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: calc(79 / 65);
+    margin-bottom: 85px;
+  }
+  &-cards {
+    width: 1312px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    gap: 30px 0;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  &-card {
+    width: 238px;
+    height: 252px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &_heading {
+      font-weight: 600;
+      font-size: 47px;
+      line-height: calc(57 / 47);
+      margin-bottom: 10px;
+    }
+    &_list {
+      display: flex;
+      gap: 0 26px;
+    }
+    &_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &_text {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: calc(24 / 20);
+      margin-top: 25px;
+    }
+  }
+}

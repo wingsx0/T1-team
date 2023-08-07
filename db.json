@@ -1,0 +1,59 @@
+{
+  "teams-lol": [],
+  "faker": [
+    {
+      "image": "../img/shop/img1.png",
+      "title": "FAKER X DECA Ball Cap",
+      "price": 39000,
+      "bestSeller": true,
+      "id": 1
+    },
+    {
+      "image": "../img/shop/img2.png",
+      "title": "FAKER X DECA T-Shirt - White",
+      "price": 59000,
+      "bestSeller": true,
+      "id": 2
+    },
+    {
+      "image": "../img/shop/img7.png",
+      "title": "FAKER X DECA Uniform Jersey Ltd Ed.",
+      "price": 109000,
+      "bestSeller": true,
+      "id": 4
+    },
+    {
+      "image": "../img/shop/img4.png",
+      "title": "FAKER X DECA Keychain Ltd Ed.",
+      "price": 49800,
+      "bestSeller": true,
+      "id": 5
+    },
+    {
+      "image": "../img/shop/img5.png",
+      "title": "FAKER X DECA Arm Sleeve Ltd Ed.",
+      "price": 17800123,
+      "bestSeller": false,
+      "id": 6
+    },
+    {
+      "image": "../img/shop/img5.png",
+      "title": "FAKER X DECA Arm Sleeve Ltd Ed.",
+      "price": 17800123,
+      "bestSeller": true,
+      "id": 8
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "wings",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "minh",
+      "password": "1234"
+    }
+  ]
+}
